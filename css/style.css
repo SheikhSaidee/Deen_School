@@ -45,3 +45,15 @@ ul{
     text-transform: uppercase;
     margin-top: 8px;
 }
+.top-bar-area .user-login a {
+    background: #ffb606 none repeat scroll 0 0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: #002147;
+    display: inline-block;
+    font-weight: 600;
+    margin-left: 5px;
+    margin-top: 13px;
+    padding: 8px 25px;
+}

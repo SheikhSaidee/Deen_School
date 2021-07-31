@@ -428,3 +428,34 @@ body {
         .sticky-wrapper .shrink {
           padding-top: 30px !important;
           padding-bottom: 30px !important; } }
+section{
+    padding: 10px;
+    margin-top: 10px;
+    display: inline-block;
+}
+.message{
+    height:300px;
+    width:65%;
+    float: left;  
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.message img{
+    width:120px;
+    height:150px;
+    border-radius: 30em;
+}
+.image{
+    width: 200px;
+    padding-top: 25px;
+    padding-left: 20px;
+}
+.message_box {
+    width: 75%;
+    margin-left: 130px;
+    margin-top: -160px;
+    padding-left: 20px;
+    height:300px;
+}
+.aside{
+    height: 300px;
+}

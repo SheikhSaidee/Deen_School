@@ -823,3 +823,130 @@ section{
   padding-bottom: 8px;
   text-align: center;
 }
+
+/* ==============================================================
+     # Event
+=================================================================== */
+.event-area{
+
+  height: 300px;
+  width: 100%;
+}
+.site-heading h2 {
+    margin-top: 30px;
+    display: inline-block;
+    font-weight: 700;
+    padding-bottom: 20px;
+    position: relative;
+    z-index: 1;
+}
+h1, h2, h3, h4 {
+    margin-bottom: 15px;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #002147;
+    font-weight: normal;
+    line-height: 1.2;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0;
+    margin: 0;
+}
+.site-heading h2::after {
+    background: #EEEEEE none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 50%;
+    margin-left: 5px;
+    position: absolute;
+    width: 40px;
+}
+.site-heading h2::before {
+    background: #EEEEEE none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 50%;
+    margin-left: -40px;
+    position: absolute;
+    width: 40px;
+    z-index: 1;
+}
+.site-heading {
+    margin-bottom: 60px;
+    margin-top: -5px;
+    overflow: hidden;
+}
+.text-center{
+    text-align: center;
+}
+p {
+    color: #666666;
+    line-height: 26px;
+    margin: 0 0 15px;
+    text-transform: none;
+    font-weight: 400;
+}
+.col-md-offset-2 {
+    margin-left: 16.66666667%;
+}
+.event-area .event-items .item {
+    margin-bottom: 30px;
+}
+@media (min-width: 992px)
+.col-md-12 {
+    width: 100%;
+}
+.thumb{
+    background-image: url(Images/slider2.jpg);
+}
+.event-area .event-items .item .thumb {
+    position: relative;
+    text-align: center;
+    z-index: 1;
+}
+.event-area .event-items .item .thumb, .event-area .event-items .item .info {
+    display: table-cell;
+    float: none;
+    vertical-align: middle;
+}
+.bg-cover {
+    background-position: center center;
+    background-size: cover;
+}
+.event-area .event-items .item .thumb .date h4 {
+    color: #ffb606;
+    font-size: 14px;
+    margin: 0;
+    text-transform: uppercase;
+}
+.event-area .event-items .item .thumb .date::after {
+    background: #002147 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+.event-area .event-items .item .info .meta {
+    border-bottom: 1px solid #e7e7e7;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+.btn-dark {
+    background-color: #002147;
+    color: #ffffff;
+    border: 2px solid #002147;
+}
+.btn-sm {
+    padding: 8px 35px;
+    font-size: 12px;
+}
+.event-area .event-items .item .thumb .date h4 span {
+    display: block;
+    font-size: 40px;
+    font-weight: 900;
+}

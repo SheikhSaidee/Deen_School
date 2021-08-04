@@ -828,12 +828,13 @@ section{
      # Event
 =================================================================== */
 .event-area{
-
+  display: inline-block;
   height: 300px;
   width: 100%;
+  margin-top: 10px;
 }
 .site-heading h2 {
-    margin-top: 30px;
+    margin-top: 20px;
     display: inline-block;
     font-weight: 700;
     padding-bottom: 20px;
@@ -887,66 +888,23 @@ p {
     text-transform: none;
     font-weight: 400;
 }
-.col-md-offset-2 {
-    margin-left: 16.66666667%;
+.thumb img{
+  width: 60%;
+  height: 30%;
+  border-radius: 15px 50px;
 }
-.event-area .event-items .item {
-    margin-bottom: 30px;
+.eventer{
+  width: 100%;
 }
-@media (min-width: 992px)
-.col-md-12 {
-    width: 100%;
+.item{
+  width: 32%;
+  display: inline-block;
 }
-.thumb{
-    background-image: url(Images/slider2.jpg);
+.vertical{
+  margin-top:0px;
 }
-.event-area .event-items .item .thumb {
-    position: relative;
-    text-align: center;
-    z-index: 1;
-}
-.event-area .event-items .item .thumb, .event-area .event-items .item .info {
-    display: table-cell;
-    float: none;
-    vertical-align: middle;
-}
-.bg-cover {
-    background-position: center center;
-    background-size: cover;
-}
-.event-area .event-items .item .thumb .date h4 {
-    color: #ffb606;
-    font-size: 14px;
-    margin: 0;
-    text-transform: uppercase;
-}
-.event-area .event-items .item .thumb .date::after {
-    background: #002147 none repeat scroll 0 0;
-    content: "";
-    height: 100%;
-    left: 0;
-    opacity: 0.7;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    z-index: -1;
-}
-.event-area .event-items .item .info .meta {
-    border-bottom: 1px solid #e7e7e7;
-    margin-bottom: 20px;
-    padding-bottom: 10px;
-}
-.btn-dark {
-    background-color: #002147;
-    color: #ffffff;
-    border: 2px solid #002147;
-}
-.btn-sm {
-    padding: 8px 35px;
-    font-size: 12px;
-}
-.event-area .event-items .item .thumb .date h4 span {
-    display: block;
-    font-size: 40px;
-    font-weight: 900;
+.info{
+  width: 100%;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  padding: 10px;
 }
